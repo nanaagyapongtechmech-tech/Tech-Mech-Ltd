@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="description" content="THE EVERYTHING LAB - Unified digital research laboratory for exploring ideas, mathematics, physics, Universal Automation, UIM, dimensions, consciousness, simulations, and creative inventions." />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/app_icon.jpg" />
+    <title>THE EVERYTHING LAB | Unified Digital Science & Research Suite</title>
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('OmniBlueprint PWA ServiceWorker registered successfully:', reg.scope);
+          }).catch((err) => {
+            console.log('ServiceWorker registration error:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

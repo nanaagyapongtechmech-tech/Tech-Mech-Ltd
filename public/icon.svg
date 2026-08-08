@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#020617"/>
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="#0f172a" stroke="#06b6d4" stroke-width="8"/>
+  <path d="M 64,128 H 448 M 64,256 H 448 M 64,384 H 448 M 128,64 V 448 M 256,64 V 448 M 384,64 V 448" stroke="#0e7490" stroke-width="2" opacity="0.4"/>
+  <!-- Compass drafting tool -->
+  <circle cx="256" cy="140" r="28" fill="#06b6d4"/>
+  <path d="M 256,168 L 160,380 M 256,168 L 352,380" stroke="#06b6d4" stroke-width="20" stroke-linecap="round"/>
+  <path d="M 190,300 A 120 120 0 0 0 322,300" fill="none" stroke="#38bdf8" stroke-width="12" stroke-dasharray="8 8"/>
+  <circle cx="256" cy="256" r="12" fill="#38bdf8"/>
+</svg>
